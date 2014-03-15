@@ -97,11 +97,11 @@
       <file leaf-file-name="BlockReversalSolver.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/kylejanssen/BlockReversal/BlockReversalSolver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="95" selection-start="1345" selection-end="1345" vertical-scroll-proportion="-0.37777779" vertical-offset="714" max-vertical-offset="1904">
+            <state line="62" column="0" selection-start="2409" selection-end="2409" vertical-scroll-proportion="0.41234568" vertical-offset="887" max-vertical-offset="1904">
               <folding>
-                <element signature="e#1363#1863#0" expanded="true" />
-                <element signature="e#1844#1845#0" expanded="true" />
-                <element signature="e#3013#3033#0" expanded="true" />
+                <element signature="e#1357#1857#0" expanded="true" />
+                <element signature="e#1838#1839#0" expanded="true" />
+                <element signature="e#3012#3032#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -449,11 +449,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/kylejanssen/BlockReversal/BlockReversalSolver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="95" selection-start="1345" selection-end="1345" vertical-scroll-proportion="-0.37777779" vertical-offset="714" max-vertical-offset="1904">
+        <state line="62" column="0" selection-start="2409" selection-end="2409" vertical-scroll-proportion="0.41234568" vertical-offset="887" max-vertical-offset="1904">
           <folding>
-            <element signature="e#1363#1863#0" expanded="true" />
-            <element signature="e#1844#1845#0" expanded="true" />
-            <element signature="e#3013#3033#0" expanded="true" />
+            <element signature="e#1357#1857#0" expanded="true" />
+            <element signature="e#1838#1839#0" expanded="true" />
+            <element signature="e#3012#3032#0" expanded="true" />
           </folding>
         </state>
       </provider>

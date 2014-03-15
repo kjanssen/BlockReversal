@@ -5,7 +5,7 @@ import java.util.*;
 public class BlockReversalSolver {
 
     private BlockReversal blockReversal;
-    private Hashtable<BlockReversalState, BlockReversalState> openHash;
+    private HashMap<BlockReversalState, BlockReversalState> openHash;
     private PriorityQueue<BlockReversalState> openQueue;
     private int iterations;
 
@@ -27,10 +27,10 @@ public class BlockReversalSolver {
             for (int i = 0; i < n; i++)
                 permutation[i] = i == 0 ? first : input.nextInt();
 
-        // Set up components for the A* search. That is, the game object, the Hashtable to hold opened states,
+        // Set up components for the A* search. That is, the game object, the HashMap to hold opened states,
         // and a PriorityQueue to store the fringe states.
         blockReversal = first == 0 ? new BlockReversal(n) : new BlockReversal(permutation);
-        openHash = new Hashtable<BlockReversalState, BlockReversalState>();
+        openHash = new HashMap<BlockReversalState, BlockReversalState>();
         openQueue = new PriorityQueue<BlockReversalState>(blockReversal.numAdjacencies() * 1000,
                 new Comparator<BlockReversalState>() {
                     public int compare(BlockReversalState first, BlockReversalState second)
@@ -63,7 +63,7 @@ public class BlockReversalSolver {
 
             BlockReversalState[] states = blockReversal.getAdjacentStates();
             for (int i = 0; i < states.length; i++) {
-                if (!openHash.contains(states[i])) {
+                if (!openHash.containsValue(states[i])) {
                     openHash.put(states[i], states[i]);
                     openQueue.add(states[i]);
                 }
