@@ -122,17 +122,13 @@ public class BlockReversalSolver {
         // Start timer and A* function.
         long start = System.nanoTime();
         BlockReversalState winningState = solver.aStarSolution();
-        System.out.println("Get1");
 
         // Print elapsed time and A* iterations
         System.out.println(((double)(System.nanoTime() - start) / 1000000000.0) + " sec");
         System.out.println("Iterations: " + solver.iterations + "\n");
 
-        System.out.println("Get2");
-
         // If solution is valid, print path.
         if (winningState != null) {
-            System.out.println("Get3");
             solver.printSolution(winningState);
         }
     }
