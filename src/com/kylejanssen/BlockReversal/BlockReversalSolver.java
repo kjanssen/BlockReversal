@@ -73,7 +73,10 @@ public class BlockReversalSolver {
 
             // The current state used by A* is the current state of the blockReversal object. Here we
             // load the best state from the PriorityQueue.
-            blockReversal.setState(openQueue.poll());
+            BlockReversalState next = openQueue.poll();
+            //openHash.remove(next);
+            blockReversal.setState(next);
+
 
             // Check to see if we have reached the goal state.
             if (blockReversal.done())
@@ -82,7 +85,7 @@ public class BlockReversalSolver {
             // For each adjacent state to the current state, if it has not been visited, add it to the open set.
             BlockReversalState[] states = blockReversal.getAdjacentStates();
             for (int i = 0; i < states.length; i++) {
-                if (!openHash.containsValue(states[i])) {
+                if (openHash.get(states[i]) == null) {
                     openHash.put(states[i], states[i]);
                     openQueue.add(states[i]);
                 }
@@ -119,13 +122,17 @@ public class BlockReversalSolver {
         // Start timer and A* function.
         long start = System.nanoTime();
         BlockReversalState winningState = solver.aStarSolution();
+        System.out.println("Get1");
 
         // Print elapsed time and A* iterations
         System.out.println(((double)(System.nanoTime() - start) / 1000000000.0) + " sec");
         System.out.println("Iterations: " + solver.iterations + "\n");
 
+        System.out.println("Get2");
+
         // If solution is valid, print path.
         if (winningState != null) {
+            System.out.println("Get3");
             solver.printSolution(winningState);
         }
     }
