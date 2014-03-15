@@ -1,5 +1,9 @@
-package com.kylejanssen.BlockReversal;
+// File: BlockReversal.java
+// Authors: Kyle Janssen, Aman Gill
+// Contents: This class contains the logic for playing the Block Reversal game/puzzle, where the player is given
+// a randomized permutation of numbers to be sorted into order by reversing blocks of numbers of arbitrary length.
 
+package com.kylejanssen.BlockReversal;
 
 import java.util.Random;
 
@@ -11,7 +15,6 @@ public class BlockReversal {
     private int lastFrom;
     private int lastTo;
     private BlockReversalState parent;
-
 
     // This constructor creates a new BlockReversal game of length 'size'.
     public BlockReversal (int size) {
@@ -66,6 +69,7 @@ public class BlockReversal {
     public void setState (BlockReversalState state) {
         nums = state.getNums();
         depth = state.getG();
+        parent = state.getParent();
     }
 
     public String toString () {
@@ -139,28 +143,6 @@ public class BlockReversal {
     // This function returns the heuristic value h(x) = 1/2 * the number of breakpoints.
     public int h() {
         return numBreakpoints() / 2;
-    }
-
-    // This function returns a String printout of all of the game states reachable from the current state,
-    // along with their heuristic values useful for A*.
-    public String getMoves () {
-        StringBuilder stringBuilder = new StringBuilder();
-
-        for (int i = 1; i < nums.length; i++)
-            for (int j = i + 1; j < nums.length + 1; j++) {
-                flip(i, j);
-
-                stringBuilder.append("\n" + i + ", " + j + ": < ");
-                for (int k = 0; k < nums.length; k++)
-                    stringBuilder.append(nums[k] + " ");
-                stringBuilder.append(">  h(x): " + h() + ", g(x): " + depth + ", f(x): " + (h() + depth));
-
-                flip(i, j);
-            }
-
-        lastFrom = lastTo = 0;
-
-        return stringBuilder.toString();
     }
 
     // This function returns the number of states reachable from the current state

@@ -1,3 +1,9 @@
+// File: BlockReversalState.java
+// Authors: Kyle Janssen, Aman Gill
+// Contents: An object of this class represents a single state of the BlockReversal puzzle. It keeps
+// track of who it's parent state is, and what move was made to get to the current state from the parent
+// state.
+
 package com.kylejanssen.BlockReversal;
 
 import java.util.Arrays;
@@ -40,14 +46,6 @@ public class BlockReversalState {
 
     public int getF() {
         return h + g;
-    }
-
-    public int getBegin() {
-        return begin;
-    }
-
-    public int getEnd() {
-        return end;
     }
 
     public BlockReversalState getParent () {

@@ -66,8 +66,12 @@
       <file leaf-file-name="BlockReversal.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/kylejanssen/BlockReversal/BlockReversal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="187" column="52" selection-start="5155" selection-end="5155" vertical-scroll-proportion="0.0" vertical-offset="2917" max-vertical-offset="3417">
-              <folding />
+            <state line="145" column="5" selection-start="3881" selection-end="3881" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3145">
+              <folding>
+                <element signature="e#0#4792#0" expanded="true" />
+                <element signature="e#1643#1644#0" expanded="true" />
+                <element signature="e#1675#1676#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -75,20 +79,17 @@
       <file leaf-file-name="BlockReversalState.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/kylejanssen/BlockReversal/BlockReversalState.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="29" selection-start="388" selection-end="388" vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="1564">
+            <state line="4" column="9" selection-start="284" selection-end="284" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1530">
               <folding>
-                <element signature="e#644#645#0" expanded="true" />
-                <element signature="e#680#681#0" expanded="true" />
-                <element signature="e#770#771#0" expanded="true" />
-                <element signature="e#794#795#0" expanded="true" />
-                <element signature="e#819#820#0" expanded="true" />
-                <element signature="e#843#844#0" expanded="true" />
-                <element signature="e#925#926#0" expanded="true" />
-                <element signature="e#953#954#0" expanded="true" />
-                <element signature="e#980#981#0" expanded="true" />
-                <element signature="e#1006#1007#0" expanded="true" />
-                <element signature="e#1052#1053#0" expanded="true" />
-                <element signature="e#1081#1082#0" expanded="true" />
+                <element signature="e#0#2137#0" expanded="true" />
+                <element signature="e#930#931#0" expanded="true" />
+                <element signature="e#966#967#0" expanded="true" />
+                <element signature="e#1056#1057#0" expanded="true" />
+                <element signature="e#1080#1081#0" expanded="true" />
+                <element signature="e#1105#1106#0" expanded="true" />
+                <element signature="e#1129#1130#0" expanded="true" />
+                <element signature="e#1228#1229#0" expanded="true" />
+                <element signature="e#1257#1258#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -97,11 +98,12 @@
       <file leaf-file-name="BlockReversalSolver.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/kylejanssen/BlockReversal/BlockReversalSolver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="0" selection-start="2409" selection-end="2409" vertical-scroll-proportion="0.41234568" vertical-offset="887" max-vertical-offset="1904">
+            <state line="126" column="44" selection-start="5412" selection-end="5412" vertical-scroll-proportion="4.3983574" vertical-offset="0" max-vertical-offset="2346">
               <folding>
-                <element signature="e#1357#1857#0" expanded="true" />
-                <element signature="e#1838#1839#0" expanded="true" />
-                <element signature="e#3012#3032#0" expanded="true" />
+                <element signature="e#0#5515#0" expanded="true" />
+                <element signature="e#1699#2383#0" expanded="true" />
+                <element signature="e#2364#2365#0" expanded="true" />
+                <element signature="e#4200#4220#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -118,10 +120,10 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/com/kylejanssen/BlockReversal/BinaryHeap.java" />
-        <option value="$PROJECT_DIR$/src/com/kylejanssen/BlockReversal/BlockReversalState.java" />
-        <option value="$PROJECT_DIR$/src/com/kylejanssen/BlockReversal/BlockReversal.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/com/kylejanssen/BlockReversal/BlockReversalSolver.java" />
+        <option value="$PROJECT_DIR$/src/com/kylejanssen/BlockReversal/BlockReversalState.java" />
+        <option value="$PROJECT_DIR$/src/com/kylejanssen/BlockReversal/BlockReversal.java" />
       </list>
     </option>
   </component>
@@ -375,7 +377,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15801749" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5385439" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.45074946" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -410,33 +412,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kylejanssen/BlockReversal/BlockReversalState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="29" selection-start="388" selection-end="388" vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="1564">
-          <folding>
-            <element signature="e#644#645#0" expanded="true" />
-            <element signature="e#680#681#0" expanded="true" />
-            <element signature="e#770#771#0" expanded="true" />
-            <element signature="e#794#795#0" expanded="true" />
-            <element signature="e#819#820#0" expanded="true" />
-            <element signature="e#843#844#0" expanded="true" />
-            <element signature="e#925#926#0" expanded="true" />
-            <element signature="e#953#954#0" expanded="true" />
-            <element signature="e#980#981#0" expanded="true" />
-            <element signature="e#1006#1007#0" expanded="true" />
-            <element signature="e#1052#1053#0" expanded="true" />
-            <element signature="e#1081#1082#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kylejanssen/BlockReversal/BlockReversal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="187" column="52" selection-start="5155" selection-end="5155" vertical-scroll-proportion="0.0" vertical-offset="2917" max-vertical-offset="3417">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="22" selection-start="23" selection-end="23" vertical-scroll-proportion="0.08457711" vertical-offset="0" max-vertical-offset="201">
@@ -447,13 +422,42 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kylejanssen/BlockReversal/BlockReversalState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="9" selection-start="284" selection-end="284" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1530">
+          <folding>
+            <element signature="e#0#2137#0" expanded="true" />
+            <element signature="e#930#931#0" expanded="true" />
+            <element signature="e#966#967#0" expanded="true" />
+            <element signature="e#1056#1057#0" expanded="true" />
+            <element signature="e#1080#1081#0" expanded="true" />
+            <element signature="e#1105#1106#0" expanded="true" />
+            <element signature="e#1129#1130#0" expanded="true" />
+            <element signature="e#1228#1229#0" expanded="true" />
+            <element signature="e#1257#1258#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kylejanssen/BlockReversal/BlockReversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="145" column="5" selection-start="3881" selection-end="3881" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3145">
+          <folding>
+            <element signature="e#0#4792#0" expanded="true" />
+            <element signature="e#1643#1644#0" expanded="true" />
+            <element signature="e#1675#1676#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/kylejanssen/BlockReversal/BlockReversalSolver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="0" selection-start="2409" selection-end="2409" vertical-scroll-proportion="0.41234568" vertical-offset="887" max-vertical-offset="1904">
+        <state line="126" column="44" selection-start="5412" selection-end="5412" vertical-scroll-proportion="4.3983574" vertical-offset="0" max-vertical-offset="2346">
           <folding>
-            <element signature="e#1357#1857#0" expanded="true" />
-            <element signature="e#1838#1839#0" expanded="true" />
-            <element signature="e#3012#3032#0" expanded="true" />
+            <element signature="e#0#5515#0" expanded="true" />
+            <element signature="e#1699#2383#0" expanded="true" />
+            <element signature="e#2364#2365#0" expanded="true" />
+            <element signature="e#4200#4220#0" expanded="true" />
           </folding>
         </state>
       </provider>
