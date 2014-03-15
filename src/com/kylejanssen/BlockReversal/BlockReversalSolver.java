@@ -31,12 +31,14 @@ public class BlockReversalSolver {
         // and a PriorityQueue to store the fringe states.
         blockReversal = first == 0 ? new BlockReversal(n) : new BlockReversal(permutation);
         openHash = new Hashtable<BlockReversalState, BlockReversalState>();
-        openQueue = new PriorityQueue<BlockReversalState>(blockReversal.numAdjacencies() * 10,
+        openQueue = new PriorityQueue<BlockReversalState>(blockReversal.numAdjacencies() * 1000,
                 new Comparator<BlockReversalState>() {
                     public int compare(BlockReversalState first, BlockReversalState second)
                     {
                         if (first.getF() < second.getF()) return -1;
                         if (first.getF() > second.getF()) return 1;
+                        if (first.getH() < second.getH()) return -1;
+                        if (first.getH() > second.getH()) return 1;
                         return 0;
                     }
                 }
@@ -67,8 +69,7 @@ public class BlockReversalSolver {
                 }
             }
 
-            System.out.println("Step  " + iterations + ":   " + openHash.get(blockReversal.getState()) + "\n");
-            count++;
+            //System.out.println("Step  " + iterations + ":   " + openHash.get(blockReversal.getState()) + "\n");
         }
 
         return null;
@@ -85,6 +86,8 @@ public class BlockReversalSolver {
         for (int i = winningPath.size() - 2; i >= 0; i--) {
             System.out.println("Move " + (winningPath.size() - i - 1) + "       :  " + winningPath.get(i));
         }
+
+        System.out.println("Nodes expanded: " + openHash.size());
     }
 
     public static void main(String[] args) {
